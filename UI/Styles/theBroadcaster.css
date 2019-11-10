@@ -1,3 +1,7 @@
+.container{
+  text-align: center;
+  width: 100%;
+}
 .header-box{
     padding-left: 2px;
     padding-top: 33px;
@@ -6,86 +10,108 @@
   font-family: 'Quicksand', sans-serif;
   font-size: 13px;
 }
-.header-title{
-    margin-top: 60px;
-    margin-left: 50px;
+.title{
     color: #212529;
-}
-.container{
-    text-align: center;
-    width: 100%;
-  }
-  .input-box{
-    margin-bottom: 5px;
-}
-.form-horizontal{
-    margin-left: 56px;
-    margin-top: 14px;
-}
-.side-title{
-    writing-mode: vertical-rl;
-    text-orientation: mixed;
-    text-align: left;
-    color: #212529;
-    font-size: 20px;
+    margin-left: 64px;
+    font-weight: 100px;
 }
 .body-box{
-    margin-top: 34px;
-    color: #212529; 
-    font-size: 3rem;
-    font-family: 'Montserrat', sans-serif;
-    
+  margin-top: 34px;
+  color: #212529; 
+  font-size: 3rem;
+  font-family: 'Montserrat', sans-serif;
+  
 }
-.input-control {
-    display: block;
-    width: 57%;
-    height: 34px;
-    padding: 6px 12px;
-    font-size: 16px;
-    line-height: 1.42857143;
-    background-color: #fff;
-    border: 1px solid #212529;
-    border-radius: 2px;
-    font-family: 'Quicksand', sans-serif;
-    outline: none;
-  }
-  .login-box{
-    margin-left: 136px;
-    margin-top: -94px;
-  }
-  .login-title{
-    margin-right: 866px;
-    color: #313c47;
-  }
-  .login-info{
-    border-left: 3px solid #212529;
-    font-size: 19px;
-    margin-top: -54px;
-    background-color: gainsboro;
-    width: 94%;
-    margin-left: 15px;
-    outline: none;
+.header-title{
+  margin-top: 60px;
+  margin-left: 50px;
+  color: #212529;
 }
-.next{
-    text-align: right;
-    font-size: 95px;
-    color: #555a5f;
-    background-color: transparent;
-    border: 1px solid dimgray;
-    cursor: pointer;
-    margin-top: -98px;
-    margin-left: 976px;
-    border-radius: 5rem;
-    outline: none;
+.header-menu{
+  margin-left: 1070px;
+  margin-top: -40px;
+  font-size: 0.924rem;
+  color: black;
+  font-weight: 600;
 }
-.SignUp-box{
-  margin-left: 136px;
-  margin-top: -144px;
+a:link {
+  text-decoration: none;
+  font-size: 18px;
+}
+a:visited {
+  color: black;
+}
+a:hover{
+  color: cadetblue;
+}
+.intro{
+  margin-top: -175px;
+}
+.brief{
+  width: 75%;
+  height: 70%;
+  font-size: 2rem;
+  text-align: left;
+  padding: 3em;
+  margin-left: 94px;
+  margin-top: 13px;
+  /* background-image: url('tumblr_pehkbdc1Kd1usx6lqo1_500.png'); */
+}
+.brief-text{
+  width: 56%;
+  padding: 10em;
+  margin-top: -206px;
+  margin-left: -320px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 29px;
+  font-weight: bold;
+}
+.mini-brief{
+  width: 30%;
+  height: 24%;
+  padding: 3rem;
+  text-align: left;
+  border-left: 9px solid #555a5f;
+  margin-left: 89px;
+  margin-top: -390px;
+  background-color: transparent;
+  font-family: 'Montserrat', sans-serif;
+  
+}
+.mini-brief-text{
+  padding: 1rem;
+  margin-top: -30px;
+  margin-left: 759px;
+  color: #212529;
+  height: 90%;
+  width: 90%;
+  font-size: 37px;
+}
+.About-title{
+  font-size: 13px;
+  color: #555a5f;
+  font-family: 'Montserrat', sans-serif;
+  float: left;
+  border-left: 9px solid #555a5f;
+  margin-top: 195px;
+}
+.About-us{
+  margin-top: 139px;
+  height: 50%;
+  border-bottom: 1px solid #212529;
+}
+.About-info{
+  margin-top: -280px;
+  font-size: 14px;
+  padding: 12rem;
+  text-align: left;
+  padding-right: 4rem;
 }
 .Red-flag{
   margin-top: -1px;
   height: 80%;
   border-bottom: 1px solid #555a5f;
+  /* background-image: url('GCB-LAC_cover_Augusto_Zambonato_455_274_c1.jpg'); */
 }
 .Red-flag-info{
   margin-top: -169px;
@@ -93,10 +119,115 @@
   text-align: center;
   border-right: 5px solid #555a5f;
 }
+.Intervention{
+  margin-top: 209px;
+  height: 50%;
+  border-bottom: 1px solid #555a5f;
+}
+.Intervention-info{
+  margin-top: 49px;
+  font-size: 14px;
+  text-align: center;
+  border-left: 5px solid #555a5f;
+}
 .Red-flag-title{
   padding: 10rem;
   color: #555a5f;
   font-weight: lighter;
+}
+.Intervention-title{
+  color: #555a5f;
+  font-weight: lighter;
+}
+.footer-container{
+  height: 70%;
+  margin-top: 2px;
+  background-color: transparent;
+  font-family: 'Montserrat', sans-serif;
+}
+.footer-header{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 15px;
+  color: #212529;
+}
+.footer-brief{
+  padding: 5em;
+  margin-left: -20px;
+  color: #555a5f;
+}
+.mini-footer-title{
+  text-align: left;
+  margin-top: -20px;
+  font-size: 10px;
+  color: #212529;
+}
+.mini-footer-brief{
+  text-align: left;
+  padding: 3em;
+  font-size: 15px;
+  margin-top: -16px;
+}
+.input-box{
+  margin-bottom: 5px;
+}
+.form-horizontal{
+  margin-left: 56px;
+  margin-top: 14px;
+}
+.input-control {
+  display: block;
+  width: 57%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 16px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: 1px solid #212529;
+  border-radius: 2px;
+  font-family: 'Quicksand', sans-serif;
+  outline: none;
+}
+.login-box{
+  margin-left: 136px;
+  margin-top: -94px;
+}
+.SignUp-box{
+  margin-left: 136px;
+  margin-top: -144px;
+}
+.login-title{
+  margin-right: 866px;
+  color: #313c47;
+}
+.side-title{
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  text-align: left;
+  color: #212529;
+  font-size: 20px;
+}
+.login-info{
+  border-left: 3px solid #212529;
+  font-size: 19px;
+  margin-top: -54px;
+  background-color: gainsboro;
+  width: 94%;
+  margin-left: 15px;
+  outline: none;
+}
+.next{
+  text-align: right;
+  font-size: 95px;
+  color: #555a5f;
+  background-color: transparent;
+  border: 1px solid dimgray;
+  cursor: pointer;
+  margin-top: -98px;
+  margin-left: 976px;
+  border-radius: 5rem;
+  outline: none;
 }
 .flag-title{
   margin-top: 125px;
@@ -121,12 +252,25 @@
   cursor: pointer;
   outline: none;
 }
+.btn-attach{
+  font-family: 'Montserrat', sans-serif;
+  margin-top: -10px;
+  margin-right: 750px;
+  background-color: transparent;
+  color: #313c47;
+  cursor: pointer;
+  border: none;
+  padding-right: 14px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  outline: none;
+}
 .Flag-box{
   margin-top: -90px;
 }
-.attach-box{
-  margin-top: -4px;
-  padding-left: 19rem;
+.SignUp-box{
+  margin-top: -160px;
 }
 .flags-title{
   margin-top: 75px;
@@ -154,14 +298,18 @@
   font-size: 14px;
   cursor: pointer;
 }
+.attach-box{
+  margin-top: -4px;
+  padding-left: 19rem;
+}
+.reset-box{
+  margin-top: 80px;
+}
 .icon{
   background-color: transparent;
   border: none;
   outline: none;
   cursor: pointer;
-}
-.reset-box{
-  margin-top: 80px;
 }
 .random-box{
   width: 10%;
@@ -201,6 +349,44 @@ label{
   text-align: center;
   outline: none;
    }
-   input[type="file"] {
-    display: none;
+
+input[type="file"] {
+  display: none;
 }
+  
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 700px) {
+  .mini-brief{
+      width: 30%;
+      height: 14%;
+      padding: 3rem;
+      margin-left: 14px;
+      margin-top: -420px;
+  }
+  .mini-brief-text{
+      display: none;
+  }
+  .brief-text{
+      width: 56%;
+      padding: 10em;
+      margin-top: -206px;
+      margin-left: -320px;
+      font-size: 19px;
+  }
+  .Red-flag{
+      margin-top: 10px;
+      height: 80%;
+  }
+  .About-info{
+      margin-top: -290px;
+      font-size: 12px;
+  }
+  .Red-flag-title{
+      font-size: 24px;
+  }
+  .Intervention-title{
+      font-size: 24px;
+      margin-top: -34px;
+  }
+}
+
