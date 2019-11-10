@@ -128,3 +128,35 @@
   margin-top: -4px;
   padding-left: 19rem;
 }
+.flags-title{
+  margin-top: 75px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  margin-right: 945px;
+  color: #313c47;
+  letter-spacing: 2px;
+}
+.Red-flags-box{
+   margin-top: -140px;
+}
+.flags-info{
+  margin-top: 38px;
+  margin-left: 174px;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 3px;
+  color: #313c47;
+  padding-left: 3rem;
+}
+.table {
+  width: 100%;
+  max-width: 76%;
+  margin-bottom: 20px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.icon{
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
