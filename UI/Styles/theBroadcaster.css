@@ -82,3 +82,49 @@
   margin-left: 136px;
   margin-top: -144px;
 }
+.Red-flag{
+  margin-top: -1px;
+  height: 80%;
+  border-bottom: 1px solid #555a5f;
+}
+.Red-flag-info{
+  margin-top: -169px;
+  font-size: 14px;
+  text-align: center;
+  border-right: 5px solid #555a5f;
+}
+.Red-flag-title{
+  padding: 10rem;
+  color: #555a5f;
+  font-weight: lighter;
+}
+.flag-title{
+  margin-top: 125px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+  font-size: 40px;
+  color: #313c47;
+}
+.red-form{
+  margin-top: -23px;
+  margin-left: 323px;
+}
+.Red-flag-button{
+  font-family: 'Montserrat', sans-serif;
+  margin-top: -49px;
+  background-color: transparent;
+  font-size: 34px;
+  color: #313c47;
+  border: 3px solid #313c47;
+  margin-left: 410px;
+  border-radius: 30px;
+  cursor: pointer;
+  outline: none;
+}
+.Flag-box{
+  margin-top: -90px;
+}
+.attach-box{
+  margin-top: -4px;
+  padding-left: 19rem;
+}
